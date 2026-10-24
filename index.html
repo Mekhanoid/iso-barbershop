@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iso Barbershop</title>
+  <meta name="description" content="Iso Barbershop — soch, soqol va uslub. Onlayn yoziling.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:title" content="Iso Barbershop">
+  <meta property="og:description" content="Soch, soqol va uslub. Onlayn yoziling.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://assets.mixkit.co/videos/43236/43236-thumb-720-0.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='black'/%3E%3Ctext x='32' y='47' font-size='42' font-family='Arial Black,sans-serif' text-anchor='middle' fill='white'%3EI%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979..2050&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="lock">
+
+  <!-- Loading -->
+  <div class="loader" id="loader" aria-live="polite">
+    <div class="loader__word" id="loaderWord">ISO</div>
+    <div class="loader__meta">
+      <span>Barbershop</span>
+      <span id="loaderCount">0%</span>
+    </div>
+    <div class="loader__bar"><i id="loaderBar"></i></div>
+  </div>
+
+  <!-- Fon -->
+  <div class="bg" aria-hidden="true">
+    <span class="bg__blob b1"></span>
+    <span class="bg__blob b2"></span>
+    <span class="bg__blob b3"></span>
+    <span class="bg__grid"></span>
+    <span class="bg__grid bg__grid--lit"></span>
+  </div>
+
+  <!-- Plyonka donadorligi, barber ustuni (scroll), xizmat rasmi -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="pole" aria-hidden="true"><i id="poleBar"></i></div>
+  <div class="peek" id="peek" aria-hidden="true"><img alt=""></div>
+
+  <!-- Menyu -->
+  <header class="nav glass">
+    <a class="nav__logo" href="#top" aria-label="Iso Barbershop">ISO</a>
+    <nav class="nav__links" aria-label="Asosiy menyu">
+      <a href="#about">Biz haqimizda</a>
+      <a href="#gallery">Ishlar</a>
+      <a href="#services">Xizmatlar</a>
+      <a href="#contact">Aloqa</a>
+    </nav>
+    <a class="btn btn--solid" href="#booking">Yozilish</a>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="https://assets.mixkit.co/videos/43236/43236-thumb-720-0.jpg" aria-hidden="true"><source src="https://assets.mixkit.co/videos/43236/43236-720.mp4" type="video/mp4"></video>
+      <h1 class="hero__word" id="heroWord" aria-label="Iso Barbershop"><span aria-hidden="true">I</span><span aria-hidden="true">S</span><span aria-hidden="true">O</span></h1>
+      <div class="hero__bar glass">
+        <p class="hero__tag">Barbershop. Soch, soqol va uslub.</p>
+        <p class="hero__time">Har kuni 10:00 – 22:00</p>
+        <a class="btn btn--solid" href="#booking">Vaqt band qilish</a>
+      </div>
+    </section>
+
+    <!-- Tanishuv -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <h2 class="title reveal">Tanishing</h2>
+        <div class="about">
+          <p class="about__text reveal">
+            Biz Iso Barbershop jamoasimiz. Bu yerda shoshilmaymiz. Har bir mijozga alohida vaqt ajratamiz: avval nima xohlashingizni eshitamiz, keyin ishlaymiz. Natija — sizga mos, ertaga ham yaxshi ko'rinadigan soch.
+          </p>
+          <div class="about__cards">
+            <article class="card glass reveal">
+              <h3>Toza asboblar</h3>
+              <p>Har mijozdan keyin asboblar tozalanadi.</p>
+            </article>
+            <article class="card glass reveal">
+              <h3>Aniq vaqt</h3>
+              <p>Oldindan yozilasiz — navbatda o'tirmaysiz.</p>
+            </article>
+            <article class="card glass reveal">
+              <h3>Sizning uslubingiz</h3>
+              <p>Moda emas, sizga yarashadigan shaklni tanlaymiz.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ishlar -->
+    <section class="section" id="gallery">
+      <div class="wrap">
+        <h2 class="title reveal">Ishlarimiz</h2>
+        <div class="gallery reveal">
+      <figure class="shot shot--a"><video muted loop playsinline preload="none" poster="https://assets.mixkit.co/videos/43232/43232-thumb-720-0.jpg" aria-label="Qaychi va taroq bilan soch olish"><source src="https://assets.mixkit.co/videos/43232/43232-720.mp4" type="video/mp4"></video></figure>
+      <figure class="shot shot--b"><img src="https://images.unsplash.com/photo-1702865272115-5afdbae975af?auto=format&fit=crop&w=1100&q=70" alt="Barbershop kreslosi va oyna" loading="lazy" onerror="this.remove()"></figure>
+      <figure class="shot shot--c"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1100&q=70" alt="Mashinka, qaychi va taroq" loading="lazy" onerror="this.remove()"></figure>
+      <figure class="shot shot--d"><video muted loop playsinline preload="none" poster="https://assets.mixkit.co/videos/43222/43222-thumb-720-0.jpg" aria-label="Soqolli mijozga soch olish"><source src="https://assets.mixkit.co/videos/43222/43222-720.mp4" type="video/mp4"></video></figure>
+      <figure class="shot shot--e"><img src="https://images.unsplash.com/photo-1647140655214-e4a2d914971f?auto=format&fit=crop&w=1100&q=70" alt="Qaychi bilan soch olish" loading="lazy" onerror="this.remove()"></figure>
+      <figure class="shot shot--f"><video muted loop playsinline preload="none" poster="https://assets.mixkit.co/videos/40128/40128-thumb-720-0.jpg" aria-label="Mashinka bilan bo'yin chizig'i"><source src="https://assets.mixkit.co/videos/40128/40128-720.mp4" type="video/mp4"></video></figure>
+      <figure class="shot shot--g"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1100&q=70" alt="Barber kreslosida o'tirgan mijoz" loading="lazy" onerror="this.remove()"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Xizmatlar -->
+    <section class="section section--light" id="services">
+      <div class="wrap">
+        <h2 class="title reveal">Xizmatlar</h2>
+        <ul class="list glass reveal">
+          <li class="row" data-img="https://images.unsplash.com/photo-1647140655214-e4a2d914971f?auto=format&fit=crop&w=520&q=70">
+            <span class="row__name">Soch olish</span>
+            <span class="row__time">40 daqiqa</span>
+            <span class="row__price">80 000 so'm</span>
+          </li>
+          <li class="row" data-img="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=520&q=70">
+            <span class="row__name">Soqol va mo'ylov</span>
+            <span class="row__time">30 daqiqa</span>
+            <span class="row__price">60 000 so'm</span>
+          </li>
+          <li class="row" data-img="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=520&q=70">
+            <span class="row__name">Soch + soqol</span>
+            <span class="row__time">70 daqiqa</span>
+            <span class="row__price">130 000 so'm</span>
+          </li>
+          <li class="row" data-img="https://images.unsplash.com/photo-1702865272115-5afdbae975af?auto=format&fit=crop&w=520&q=70">
+            <span class="row__name">Bolalar uchun soch olish</span>
+            <span class="row__time">30 daqiqa</span>
+            <span class="row__price">60 000 so'm</span>
+          </li>
+          <li class="row" data-img="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=520&q=70">
+            <span class="row__name">Uslub berish</span>
+            <span class="row__time">15 daqiqa</span>
+            <span class="row__price">40 000 so'm</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Yozilish -->
+    <section class="section" id="booking">
+      <div class="wrap wrap--book">
+        <h2 class="title reveal">Yozilish</h2>
+        <form class="book glass reveal" id="bookingForm" novalidate>
+
+          <fieldset class="step">
+            <legend><b>1</b>Xizmat</legend>
+            <div class="services">
+              <label class="opt"><input type="radio" name="service" value="Soch olish" data-price="80 000">
+                <span class="opt__body"><span class="opt__name">Soch olish</span><span class="opt__meta">40 daqiqa</span><span class="opt__price">80 000</span></span></label>
+              <label class="opt"><input type="radio" name="service" value="Soqol va mo'ylov" data-price="60 000">
+                <span class="opt__body"><span class="opt__name">Soqol va mo'ylov</span><span class="opt__meta">30 daqiqa</span><span class="opt__price">60 000</span></span></label>
+              <label class="opt"><input type="radio" name="service" value="Soch + soqol" data-price="130 000">
+                <span class="opt__body"><span class="opt__name">Soch + soqol</span><span class="opt__meta">70 daqiqa</span><span class="opt__price">130 000</span></span></label>
+              <label class="opt"><input type="radio" name="service" value="Bolalar uchun soch olish" data-price="60 000">
+                <span class="opt__body"><span class="opt__name">Bolalar uchun soch olish</span><span class="opt__meta">30 daqiqa</span><span class="opt__price">60 000</span></span></label>
+              <label class="opt"><input type="radio" name="service" value="Uslub berish" data-price="40 000">
+                <span class="opt__body"><span class="opt__name">Uslub berish</span><span class="opt__meta">15 daqiqa</span><span class="opt__price">40 000</span></span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="step">
+            <legend><b>2</b>Sana</legend>
+            <div class="days" id="days"></div>
+          </fieldset>
+
+          <fieldset class="step">
+            <legend><b>3</b>Vaqt</legend>
+            <div class="times" id="times"></div>
+          </fieldset>
+
+          <fieldset class="step">
+            <legend><b>4</b>Siz haqingizda</legend>
+            <div class="fields">
+              <label class="field">
+                <span>Ismingiz</span>
+                <input type="text" name="name" placeholder="Masalan, Ali" autocomplete="name" required>
+              </label>
+              <label class="field">
+                <span>Telefon raqamingiz</span>
+                <input type="tel" name="phone" id="phoneInput" placeholder="+998 90 000 00 00" inputmode="tel" autocomplete="tel" required>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="book__foot">
+            <p class="summary" id="summary">Xizmat, sana va vaqtni tanlang</p>
+            <p class="form__error" id="formError" role="alert"></p>
+            <button class="btn btn--solid btn--wide" id="submitBtn" type="submit">Zakaz berish</button>
+            <p class="book__hint" id="bookHint" hidden>Telegram ochilmadimi? <a id="tgLink" href="#" target="_blank" rel="noopener">Shu yerni bosing</a></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Aloqa -->
+    <section class="section" id="contact">
+      <div class="wrap">
+        <h2 class="title reveal">Aloqa</h2>
+        <div class="contact">
+          <div class="contact__item glass reveal">
+            <h3>Manzil</h3>
+            <p>Shahar, ko'cha nomi, 12-uy</p>
+          </div>
+          <div class="contact__item glass reveal">
+            <h3>Telefon</h3>
+            <p><a href="tel:+998900000000">+998 90 000 00 00</a></p>
+          </div>
+          <div class="contact__item glass reveal">
+            <h3>Ish vaqti</h3>
+            <p>Har kuni, 10:00 – 22:00</p>
+          </div>
+          <div class="contact__item glass reveal">
+            <h3>Telegram</h3>
+            <p><a href="https://t.me/lil.mekhaa" target="_blank" rel="noopener">@lil.mekhaa</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__word" id="footerWord" aria-hidden="true"><span>I</span><span>S</span><span>O</span></div>
+    <div class="footer__bar">
+      <span>© <span id="year">2026</span> Iso Barbershop</span>
+      <a href="#top">Yuqoriga</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
